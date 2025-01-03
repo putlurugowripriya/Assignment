@@ -1,0 +1,1322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.home-container {
+    background-color: #1e293b;
+}
+
+.video-container {
+    position: relative;
+    height: 750px;
+}
+
+.video {
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.home-talks {
+    width: 200px;
+    text-align: right;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    opacity: 1;
+}
+
+.home-sub-container {
+    background-color: #1e293b;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .home-sub-container {
+        margin-top: 180px;
+    }
+}
+
+.home-button {
+    padding: 12px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 10px;
+    background-color: #3659cf;
+    color: #ffffff;
+    border-style: none;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.trailer-button {
+    padding: 12px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    border-style: none;
+    width: 300px;
+    border: 1px solid #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.slide-main-head {
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.msysimage {
+    height: 40px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.sliceimage {
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.uberimage {
+    height: 40px;
+
+}
+
+.home-text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.free-style {
+    color: #a3e635;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.strike {
+    text-decoration: line-through;
+    text-decoration-color: #a3e635;
+}
+
+.companies-container {
+    background-color: #0f172a;
+    background-size: cover;
+    padding: 30px;
+}
+
+.companies-head {
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: Sans-Serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .companies-head {
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
+
+    .companies-container {
+        padding: 50px;
+        padding-bottom: 90px;
+    }
+}
+
+.company-image {
+    height: 25px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.company-slide {
+    margin-right: 40px;
+}
+
+.collection-container {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20\(1\).png");
+    background-size: cover;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-head {
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: Sans-Serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .collection-head {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+}
+
+.collection-description {
+    color: #bbc4d1;
+    font-family: Roboto;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    overflow: auto;
+    max-width: 95%;
+}
+
+.collection-button {
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Sans-Serif;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 5px;
+    height: 40px;
+    min-width: 100px;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.removescroll::-webkit-scrollbar {
+    display: none;
+}
+
+.collections-container {
+    max-width: 99%;
+    overflow: auto;
+}
+
+.all-podcast-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.podcast-card {
+    min-width: 280px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.podcast-sub-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px;
+    min-height: 280px;
+    width: 100%;
+    background-color: #334155;
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.modal-dialog {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.modal-body {
+    border-color: #334155;
+    border-top: 0;
+}
+
+.modal-content {
+    background-color: #334155;
+    background-size: cover;
+}
+
+.modal-image {
+    height: 80px;
+    width: 80px;
+}
+
+.modal-head {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.close-arrow {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Roboto;
+}
+
+.modal-sub-head {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.modal-sub-para {
+    color: #e2e8f0;
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+.modal-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tick-image {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-list-text {
+    color: #e2e8f0;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+    font-family: Roboto;
+}
+
+.panelimage {
+    width: 35px;
+}
+
+#carouselPanelIndicators1 {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carouselPanelIndicators2 {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carouselPanelIndicators3 {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carouselPanelIndicators4 {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carouselPanelIndicators5 {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carouselPanelIndicators6 {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carouselPanelIndicators7 {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carouselPanelIndicators8 {
+    max-width: 100%;
+    width: 100%;
+}
+
+#carouselPanelIndicators9 {
+    max-width: 100%;
+    width: 100%;
+}
+
+.panelcontainercard {
+    color: #f1f5f9;
+    padding: 8px;
+    background-color: #23324a;
+    border-radius: 10px;
+    height: 310px;
+}
+
+.podcast-bg-1 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sandeep.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-2 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/pritesh.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-3 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sanjay.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-4 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/kiran.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-5 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690c3b977eb17ab2fe49ddb_krishna-raghavan-thumbnail.webp");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-panel1 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/panel-2.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-panel2 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/panel-1.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-panel3 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/panel-3.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-gsoc1 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/rahul-garg.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-gsoc2 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/nirmal-manoj.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-gsoc3 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/sivay-lamba.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-gsoc4 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/govind-goyal.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-cxo1 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/shiva-kumar.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-cxo2 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/sanjay-sehgal.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-cxo3 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/rakesh-mishra.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-cxo4 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/ram-ganesh.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career1 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/deepa-wadhwani.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career2 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/hari-tn.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career3 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/siva-ghani-reddy.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career4 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/kalmeshwar.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career5 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/shri-dana-kishor.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career6 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/sri-vidhya.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career7 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/naveen.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career8 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/girish-akash.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career9 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/trivikrama-kothinti-2.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-career10 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/shashank.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech1 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/goutam.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech2 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/abhinav.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech3 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/nikhil.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech4 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/ashok-vardhan.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech5 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/giridhar.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech6 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/shyama.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech7 {
+    background-image: url("https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/podcast/rare-collection-of-insider-knowledge/architha-nagelli.png");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech8 {
+    background-image: url("https://nxtwave.imgix.net/ccbp-website/podcast/rare-collection-of-insider-knowledge/priyatham-bollimpalli.png?auto=format,compress&q=80");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech9 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690abec51e34cbc9072482b_Johan-thumbinail.webp");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech10 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690b14ce49b9ed3c0a7499c_sandeep-chandra-thumbnail.webp");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech11 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690b7c2dc4fade04120f946_tezan-thumbnail.webp");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech12 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690bf2c4727b379bef9754b_ankur-thumbnail.webp");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech13 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690c65ced331713c1b1b2dc_irshad-thumbnail.webp");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.podcast-bg-tech14 {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/6690c9ef1acc87ac5abbaa62_sriram-thumbnail.webp");
+    height: 190px;
+    padding: 10px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.fire-icon {
+    color: #ed5e21;
+    margin-right: 3px;
+    font-size: 16px;
+}
+
+.blue-trailer-button {
+    background-color: #60a5fa;
+    font-family: Roboto;
+    color: #ffffff;
+    height: 28px;
+    width: 80px;
+    padding: 3px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.play-container {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    font-size: 12px;
+    color: #60a5fa;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.podcast-sub-card-head {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.podcast-sub-card-icon {
+    margin-top: 3px;
+    color: #bbc4d1;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.podcast-sub-card-min {
+    font-family: Arial;
+    color: #e1e8f1;
+    font-size: 14px;
+}
+
+.podcast-sub-card-name {
+    font-family: Arial;
+    color: #bbc4d1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.podcast-sub-card-company {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.podcast-sub-card-learn {
+    font-family: Arial;
+    color: #519dfc;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.arrow-icon {
+    margin-left: 10px;
+    padding: 4px;
+    color: #519dfc;
+}
+
+.active-state {
+    background-color: #e1e8f1;
+    color: #000000;
+}
+
+.feedback-card {
+    margin: auto;
+    max-width: 500px;
+    background-color: #1e293b;
+    border-radius: 5px;
+    padding: 18px;
+}
+
+.feedback-container {
+    background-color: #0f172a;
+    background-size: cover;
+    padding: 30px;
+}
+
+.feedback-card-img {
+    height: 60px;
+    margin-right: 5px;
+}
+
+.feedback-head {
+    color: #ffffff;
+    font-family: Sans-Serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .feedback-head {
+        margin-top: 60px;
+        font-size: 38px;
+    }
+
+    .feedback-container {
+        padding-bottom: 70px;
+    }
+}
+
+.feedback-button {
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #713f12;
+    background-color: transparent;
+    padding: 10px;
+    color: #f59e0b;
+    height: 50px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 16px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.feedback-img {
+    border-radius: 40px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.feedback-card-head {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e2e8f0;
+}
+
+.feedback-card-para {
+    font-family: Roboto;
+    font-size: 13px;
+    color: #e2e8f0;
+}
+
+.feedback-card-text {
+    font-family: Roboto;
+    font-size: 17px;
+    color: #e2e8f0;
+}
+
+.card-linkedIn {
+    margin-left: auto;
+    height: 50px;
+}
+
+.carousel-indicators li {
+    width: 5px;
+    height: 5px;
+    border-radius: 60%;
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev .carousel-control-next {
+    width: auto;
+}
+
+.claim-container {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4e843d25fd4_NxtWave's%20Empowering%20Podcast%20Series%20%20to%20Shape%20your%20Dream%20Career.%20(1).png");
+    padding: 30px;
+    background-size: cover;
+}
+
+.claim-card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.claim-text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    margin: auto;
+    margin-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .login-text {
+        margin-top: 60px;
+        font-size: 40px;
+        max-width: 800px;
+        margin-bottom: 30px;
+    }
+
+    .claim-container {
+        padding-bottom: 80px;
+    }
+
+    .claim-text {
+        font-size: 20px;
+    }
+}
+
+.claim-button {
+    padding: 12px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 10px;
+    background-color: #3659cf;
+    color: #ffffff;
+    border-style: none;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.login-container {
+    background-color: #0f172a;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-text {
+    color: #ffffff;
+    font-family: Sans-Serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .login-text {
+        margin-top: 60px;
+        font-size: 40px;
+        max-width: 800px;
+        margin-bottom: 30px;
+    }
+
+    .login-container {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+}
+
+.form-box {
+    padding: 15px;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: #475163;
+    max-width: 500px;
+}
+
+.form-box::placeholder {
+    color: #a0afbd;
+}
+
+.button {
+    max-width: 500px;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 10px;
+    background-color: #3659cf;
+    color: #ffffff;
+    border-style: none;
+    width: 100%;
+    padding: 12px;
+}
+
+.error-text {
+    color: #f50c0c;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.note-container {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/645345c7c2106e1bd1c65a6c_Background%20String.png");
+    background-size: cover;
+    padding: 40px;
+    padding-top: 50px;
+}
+
+.note-text {
+    font-family: Sans-Serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.footer-container {
+    background-color: #0f172a;
+    padding: 40px;
+}
+
+.image {
+    height: 90px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.footer-head {
+    color: #5a7184;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: "Arial";
+}
+
+.footer-mail {
+    color: #959ead;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+.mail-icon {
+    color: #479ecc;
+    margin-right: 7px;
+    margin-top: 4px;
+}
+
+.footer-head-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: "Arial";
+}
+
+.sublist {
+    color: #959ead;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-right: 50px;
+}
+
+.payment-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 65px;
+    text-align: center;
+    height: 30px;
+    margin-right: 14px;
+}
+
+.payment-icon1 {
+    height: 28px;
+}
+
+.payment-icon3 {
+    height: 32px;
+    width: 70px;
+}
+
+.payment-icon4 {
+    height: 22px;
+}
+
+.payment-icon5 {
+    height: 32px;
+}
+
+.geo-icon {
+    color: #959ead;
+    width: 30px;
+    margin-top: 8px;
+}
+
+.geo-path {
+    margin-top: 5px;
+    color: #959ead;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+.partition {
+    padding: 1px;
+    background-color: #1e293b;
+}
+
+.social-icon {
+    height: 20px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+.social-icon2 {
+    height: 20px;
+    margin-right: 20px;
+}
+
+.final-sublist {
+    color: #5a7184;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    font-family: Sans-Serif;
+}
+
+li:hover {
+    color: #ffffff;
+}
